@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#Wait so xfce doesnt override keyboard settings
+sleep 3
+
 #Clear modifier keys
 xmodmap -e "remove Control = Control_L"
 xmodmap -e "remove Mod4 = Super_L"
