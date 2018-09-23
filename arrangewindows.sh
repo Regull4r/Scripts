@@ -1,5 +1,6 @@
-#!/bin/bash 
+#!/bin/bash
 
+wmctrl -x -r "chrome" -t 0
 wmctrl -x -r "chromium" -t 0
 wmctrl -x -r "emacs"    -t 1
 wmctrl -x -r "evince"   -t 2
